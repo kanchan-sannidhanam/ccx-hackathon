@@ -1,8 +1,7 @@
 # Main title and description for the page
 title: Service Cloud Voice Learning Map
 description: >-
-  This is the Voice learning map description that really should contain something
-  great!
+  This is a Service Cloud Voice demo learning map.
 # Each step is an array element in the "step" array…
 steps:
   # step 1
@@ -31,18 +30,18 @@ steps:
       - title: How can it help me?
         items:
           # item 1 in step 1 in column 2
-          - title: 'Customer story: connectRN'
+          - title: 'Customer story: Sample Company 1'
             icon: book
             url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
           # item  in step 1 in column 2
-          - title: 'Customer story: John Hancock'
+          - title: 'Customer story: Sample Company 2'
             icon: trailhead
             url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
       # column 3 in step 1
       - title: More questions?
         items:
           # item 1 in step 1 in column 3
-          - title: Service Cloud Voice accelerator webinar
+          - title: Service Cloud Voice Webinar
             icon: book
             url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
   # step 2
