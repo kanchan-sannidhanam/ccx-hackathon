@@ -1,6 +1,6 @@
 [build]
-command = "hugo"
-publish = "public"
+command = "hugo --gc --minify"
+publish = "public/"
 
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"
@@ -17,6 +17,7 @@ command = "hugo --gc --minify --enableGitInfo"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+publish = "public/"
 
     [context.deploy-preview.environment]
     HUGO_VERSION = "0.81.0"
