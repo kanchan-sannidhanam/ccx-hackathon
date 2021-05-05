@@ -1,0 +1,53 @@
+# Main title and description for the page
+title: Service Cloud Voice Learning Map
+description: >-
+  This is the Voice learning map description that really should contain something
+  great!
+# Each step is an array element in the "step" array…
+steps:
+  # step 1
+  # Basic info for the step
+  - navtitle: DISCOVER
+    title: Discover Voice
+    description: >-
+      Get up to speed on Service Cloud Voice, and learn how other Salesforce
+      customers are using it.
+    # Each column of each step is an array element in the "column" array…
+    columns:
+      # column 1 in step 1
+      # Basic info for the column
+      - title: What is Service Cloud Voice?
+        # Each item (in each column, in each step) is an array element in the "items" array…
+        items:
+          # item 1 in step 1 in column 1
+          - title: Intro to Service Cloud Voice
+            icon: book
+            url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
+          # item 2 in step 1 in column 1
+          - title: Service Cloud Voice Trailhead Module
+            icon: trailhead
+            url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
+      # column 2 in step 1
+      - title: How can it help me?
+        items:
+          # item 1 in step 1 in column 2
+          - title: 'Customer story: connectRN'
+            icon: book
+            url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
+          # item  in step 1 in column 2
+          - title: 'Customer story: John Hancock'
+            icon: trailhead
+            url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
+      # column 3 in step 1
+      - title: More questions?
+        items:
+          # item 1 in step 1 in column 3
+          - title: Service Cloud Voice accelerator webinar
+            icon: book
+            url: 'https://help.salesforce.com/articleView?id=voice_about.htm&type=5'
+  # step 2
+  - navtitle: BUILD
+    title: Build A Contact Center
+    description: >-
+      After reviewing important Voice requirements, switch on Service Cloud
+      Voice, create your contact center, and share it with your users.

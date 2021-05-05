@@ -1,0 +1,17 @@
+# some information about you
+name: "Mapas de aprendizaje de Salesforce"
+nickname: "Mapas de aprendizaje"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Descubra Salesforce"
+image: "images/mascots/astrobinoculars.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "johndoe@example.com"
+  phone: "+0123456789"
+
+# some summary about what you do
+# summary:
+#   - Learning Maps can guide you
+#   - We want to help
+#   - Discover the amazing things Salesforce Does
+

@@ -1,0 +1,30 @@
+<!-- This grabs the map parameter (which is the filename) and stores it in the $data variable -->
+{{ $data := index .Site.Data.maps .Page.Params.Map }}
+
+<ol>
+<!-- Loop through all the steps... -->
+{{ range $data.steps }}
+    <!-- Grab the navtitle, the title, and the description for the step... -->
+    <li><b>{{ .navtitle }}</b>: <em>{{.title}}</em><br/>{{.description}}
+        <ul>
+        <!-- Loop through all the columns... -->
+        {{ range .columns }}
+            <li>
+                <!-- Grab the column title... -->
+                {{ .title }}
+                <ol>
+                    <!-- Loop through all the items in that column... -->
+                    {{ range .items }}
+                    <li>
+                        <!-- Grab the icon info, the title, and the link... -->
+                        [{{ .icon }} icon] <a href="{{ .url }}">{{ .title }}</a>
+                    </li>
+                    
+                    {{ end }} <!-- end of items loop -->
+                </ol>
+            </li>
+            {{ end }} <!-- end of columns loop -->
+        </ul>
+    </li>
+{{ end }} <!-- end of steps loop -->
+</ol>
