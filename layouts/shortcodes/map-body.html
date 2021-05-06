@@ -1,5 +1,8 @@
-<!-- This grabs the map parameter (which is the filename) and stores it in the $data variable -->
-{{ $data := index .Site.Data.maps .Page.Params.Map }}
+<!-- Grab the local language -->
+{{ $lang := .Site.Language.Lang }}
+<!-- Grab the map parameter (which is the filename) and stores it in the $data variable -->
+<!-- NOTE: Code probably could be simplified... Wasn't sure the best way to get into the language folder -->
+{{ $data := index (index (index .Site.Data) $lang).maps .Page.Params.Map }}
 
 <ol>
 <!-- Loop through all the steps... -->
