@@ -1,7 +1,7 @@
-baseURL: https://learning-map-generator.netlify.app
+baseURL: https://learning1-map-generator.netlify.app
 
 languageCode: en-us
-title: "Salesforce Learning Maps"
+title: "Salesforce Learning Maps"s
 theme: "toha"
 
 # Manage languages
