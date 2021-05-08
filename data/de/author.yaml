@@ -5,9 +5,6 @@ nickname: "Karten lernen"
 greeting: "Entdecken Sie Salesforce"
 image: "images/mascots/astrobinoculars.png"
 # give your some contact information. they will be used in the footer
-contactInfo:
-  email: "docs@salesforce.com"
-  phone: "+0123456789"
 
 # some summary about what you do
 # summary:

@@ -1,13 +1,13 @@
-{{ $author:= site.Data.author }}
-{{ if (index site.Data site.Language.Lang).author }}
-  {{ $author = (index site.Data site.Language.Lang).author }}
+{{ $basic:= site.Data.basic }}
+{{ if (index site.Data site.Language.Lang).basic }}
+  {{ $basic = (index site.Data site.Language.Lang).basic }}
 {{ end }}
 
-{{ $name:="Jane Doe" }}
-{{ if $author.nickname }}
-  {{ $name = $author.nickname }}
-{{ else if $author.name }}
-  {{ $name = $author.name }}
+{{ $name:="Learning Maps" }}
+{{ if $basic.nickname }}
+  {{ $name = $basic.nickname }}
+{{ else if $basic.name }}
+  {{ $name = $basic.name }}
 {{ end }}
 
 {{ $sections:= site.Data.sections }}
@@ -21,12 +21,12 @@
 {{ end }}
 
 
-{{ $authorImage:= "/images/default-avatar.png" }}
-{{ if $author.image }}
-  {{ $authorImage = $author.image }}
+{{ $basicImage:= "/images/default-avatar.png" }}
+{{ if $basic.image }}
+  {{ $basicImage = $basic.image }}
 {{ end }}
-{{ $authorImage := resources.Get $authorImage }}
-{{ $authorImage := $authorImage.Fit "148x148" }}
+{{ $basicImage := resources.Get $basicImage }}
+{{ $basicImage := $basicImage.Fit "148x148" }}
 
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := resources.Get $backgroundImage }}
@@ -43,7 +43,7 @@
 {{ $tiny := $src.Resize $tinyw }}
 {{ $small := $src.Resize $smallw }}
 {{ $medium := $src.Resize $mediumw }}
-/*{{ $large := $src.Resize $largew }}*/
+{{ $large := $src.Resize $largew }}
 
 {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
 {{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
@@ -104,19 +104,20 @@
     id="homePageBackgroundImageDivStyled"
     class="background container-fluid"
   ></div>
+ 
   <div class="container content text-center">
-    <img src="{{ $authorImage.RelPermalink }}"
+   <!--  <img src="{{ $basicImage.RelPermalink }}"
       class="rounded-circle mx-auto d-block img-fluid"
-      alt="Author Image"
-    />
-    <h1 class="greeting"> {{ $author.greeting }} {{ $name }}</h1>
+      alt="basic Image"
+    />  -->
+    <h1 class="greeting"> {{ $basic.greeting }} {{ $name }}</h1>
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
       <span class="ityped-cursor"></span>
     </div>
     <ul id="typing-carousel-data">
-      {{ if $author.summary }}
-        {{ range $author.summary }}
+      {{ if $basic.summary }}
+        {{ range $basic.summary }}
           <li>{{ . }}</li>
         {{ end}}
       {{ end }}

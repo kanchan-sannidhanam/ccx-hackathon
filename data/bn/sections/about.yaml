@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Are you trying to do something hard with Salesforce?
+designation: আপনি কি সেলসফোর্স দিয়ে কিছু শক্ত করার চেষ্টা করছেন?
 # your company information
 #company:
 #  name: Salesforce Doc Com.
