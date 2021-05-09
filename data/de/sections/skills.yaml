@@ -13,32 +13,32 @@ section:
 skills:
 - name: Salesforce Platform
   logo: /images/cloud_logos/platform_logo_icon.png
-  summary: "Use Sheild to secure your data. Use Einstein to make intelligent decisions."
+  summary: "Sichern Sie Ihre Daten und treffen Sie intelligente Entscheidungen."
 
 - name: Commerce Cloud
   logo: /images/cloud_logos/commerce_logo_icon.png
-  summary: "Create an ecommerce solution."
+  summary: "Erstellen Sie eine E-Commerce-Lösung."
   #url: "https://golang.org/"
 
 - name: Marketing Cloud
   logo: /images/cloud_logos/marketing_logo_icon.png
-  summary: "Communicate your value to the world."
+  summary: "Kommunizieren Sie Ihren Wert mit der Welt."
 
 - name: Retail Cloud
   logo: /images/cloud_logos/platform_logo_icon.png
-  summary: "Find the perfect solution to your integration needs with the right solution kit."
+  summary: "Finden Sie mit dem richtigen Lösungskit die perfekte Lösung für Ihre Integrationsanforderungen."
 
 - name: Sales Cloud
   logo: /images/cloud_logos/sales_logo_icon.png
-  summary: "Sell better, faster, harder."
+  summary: "Besser, schneller und intelligenter verkaufen."
   url: "https://www.docker.com/"
 
 - name: Service Cloud
   logo: /images/cloud_logos/service_logo_icon.png
-  summary: "Serve your customers the way they deserve."
+  summary: "Bedienen Sie Ihre Kunden so, wie sie es verdienen."
   #url: "https://prometheus.io/"
 
 - name: Work Dot Com
   logo: /images/cloud_logos/workcom_logo_icon.png
-  summary: "Work from anywhere with Salesforce."
+  summary: "Arbeiten Sie von überall mit Salesforce."
 

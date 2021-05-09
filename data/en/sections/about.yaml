@@ -63,7 +63,7 @@ softSkills:
 - name: Apex
   percentage: 85
   color: green
-- name: Data Management
+- name: Data
   percentage: 85
   color: sky
 - name: Development
