@@ -51,22 +51,22 @@ other = "Next"
 other = "Improve this page"
 
 [out_of]
-other = "out of"
+other = ""
 
 [publications]
-other = "Publications"
+other = "Products"
 
 [taken_courses]
-other = "Taken Courses"
+other = "APIs"
 
 [course_name]
-other = "Course Name"
+other = "API"
 
 [total_credit]
-other = "Total Credit"
+other = "Language"
 
 [obtained_credit]
-other = "Obtained Credit"
+other = "Methods"
 
 [extracurricular_activities]
 other = "Additional Information"

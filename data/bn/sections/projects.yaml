@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Roles
   id: projects
   enable: true
   weight: 5
@@ -12,39 +12,40 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Admin
+  filter: "admin"
+- name: Developer
+  filter: "developer"
+- name: Architect
+  filter: "architect"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
+- name: Sheild Learning Map
+  logo: /images/cloud_logos/platform_logo_icon.png
   role: Contributor
   timeline: "March 2018 - Present"
   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  tags: ["admin", "platform"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Einstein Learning Map
+  logo: /images/cloud_logos/platform_logo_icon.png
   role: Developer
   timeline: "Jun 2018 - Present"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  summary: Grow Revenue and Productivity with Artificial Intelligence.
+  tags: ["admin", "machine-learning"]
 
-- name: A sample academic paper
+- name: Commerce Cloud Learning Map
+  logo: /images/cloud_logos/commerce_logo_icon.png
   role: Team Lead
   timeline: "Jan 2017 - Nov 2017"
   url: "https://www.example.com"
   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+  tags: ["developer","iot"]
 
 - name: Nocode
   logo: /images/sections/projects/no-code.png
@@ -53,7 +54,7 @@ projects:
   repo: https://github.com/kelseyhightower/nocode
   #url: ""
   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+  tags: ["architect","iot"]
 
 - name: Toha
   logo: /images/sections/projects/toha.png
@@ -61,4 +62,4 @@ projects:
   timeline: "Jun 2019 - Present"
   repo: https://github.com/hossainemruz/toha
   summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  tags: ["architect","hugo","theme","admin"]

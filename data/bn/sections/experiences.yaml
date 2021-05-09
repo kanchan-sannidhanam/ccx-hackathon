@@ -15,7 +15,7 @@ experiences:
     url: "https://www.example.com"
     location: Dhaka Branch
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Sheild.
   positions:
   - designation: Senior Software Engineer
     start: Nov 2019
@@ -24,7 +24,7 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Sheild volumes, databases, and cluster's resource definition.
     - Lead backend team.
 
   - designation: Junior Software Engineer
