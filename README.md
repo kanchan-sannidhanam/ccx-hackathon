@@ -1,31 +1,41 @@
-# ccx-hackathon
+##Learning Map Generator Setup Instructions
 
-#Install Hugo:
-macOs: $ brew install hugo
-To install on other platforms visit: https://gohugo.io/
+##Install Hugo
 
-#Check version:
-$ hugo version
+macOS: `$ brew install hugo`
 
-#Clone Learning Map Generator
-$ git clone https://github.com/tyrin/learning-map-generator.git
+To install on other platforms visit: `https://gohugo.io/`
 
-#Build the site locally. This step will create a public folder where all the static content & images will copied to. 
-#The site content are loaded from the public folder
-hugo
+##Check Hugo Version:
 
-#Locally load the static site. This helps you visualize & validate what your site looks like
-$ hugo server
-open browser and go to http://localhost:1313
-press ctrl+c to stop the server
+`$ hugo version`
 
-#Deploy using Netlify
-1. go to https://app.netlify.com/
+##Clone Learning Map Generator
+
+`$ git clone https://github.com/tyrin/learning-map-generator.git`
+
+##Build the Site Locally. 
+This step creates a public folder and copies all the static content & images. 
+The site content will load from the public folder. To create the public folder run hugo without any arguments.
+
+`$ hugo`
+
+##Locally Load Static Site. 
+This helps you visualize & validate what your site looks like
+
+`$ hugo server`
+
+Open browser and go to `http://localhost:1313`.
+
+Press ctrl+c to stop the server.
+
+##Deploy using Netlify
+1. Go to https://app.netlify.com/
 2. Connect your github account & pick your repo
 3. Update Deploy Settings:
-    - Base directory: <your repo>
+    - Base directory: `<your repo>`
     - Build command: hugo
-    - Publish directory: <your repo>/public
+    - Publish directory: `<your repo>/public`
     - Other setting pieces can remain in default state.
 4. Save and deploy
 
