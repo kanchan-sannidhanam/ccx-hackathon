@@ -13,7 +13,9 @@ To install on other platforms visit: `https://gohugo.io/`
 ## Clone Learning Map Generator
 
 `$ git clone https://github.com/tyrin/learning-map-generator.git`
+
 Initialize the git submodule that allows us to publish automatically. 
+
 `$ git init`
 
 ## Build the Site Locally
