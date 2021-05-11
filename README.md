@@ -13,6 +13,8 @@ To install on other platforms visit: `https://gohugo.io/`
 ## Clone Learning Map Generator
 
 `$ git clone https://github.com/tyrin/learning-map-generator.git`
+Initialize the git submodule that allows us to publish automatically. 
+`$ git init`
 
 ## Build the Site Locally
 This step creates a public folder and copies all the static content & images. 
@@ -23,7 +25,7 @@ The site content will load from the public folder. To create the public folder r
 ## Locally Load Static Site
 This helps you visualize & validate what your site looks like
 
-`$ hugo server`
+`$ hugo server -t toha -w`
 
 Open browser and go to `http://localhost:1313`.
 
