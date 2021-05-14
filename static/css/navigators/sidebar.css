@@ -46,7 +46,7 @@
 }
 
 #search-box:focus {
-  border: 1pt solid #248aaa;
+  border: 1pt solid #009EDB;
   outline: none;
 }
 

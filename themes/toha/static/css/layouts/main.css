@@ -35,7 +35,7 @@ p {
 }
 
 a {
-  color: #248aaa;
+  color: #009EDB;
 }
 
 a:hover {
@@ -58,8 +58,8 @@ a:hover {
 
 .btn-dark:hover,
 .btn-dark:focus {
-  background-color: #248aaa;
-  border-color: #248aaa;
+  background-color: #009EDB;
+  border-color: #009EDB;
   transition: all 0.3s ease-out;
 }
 
@@ -74,7 +74,7 @@ a:hover {
 }
 
 .btn-info {
-  background-color: #248aaa !important;
+  background-color: #009EDB !important;
   color: #e5e9f2 !important;
 }
 
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .btn-link {
-  color: #248aaa;
+  color: #009EDB;
 }
 
 .btn-link:hover {
@@ -194,7 +194,7 @@ td {
 }
 
 table thead tr {
-  background: #248aaa;
+  background: #009EDB;
   color: #e5e9f2;
 }
 
@@ -266,7 +266,7 @@ a.header-anchor code {
 }
 
 kbd {
-  background-color: #248aaa !important;
+  background-color: #009EDB !important;
   color: #f9fafc;
 }
 
@@ -284,11 +284,11 @@ mark {
 }
 
 .paginator .page-item > a {
-  color: #248aaa;
+  color: #009EDB;
 }
 
 .paginator .page-item.active > a {
-  background-color: #248aaa;
+  background-color: #009EDB;
   color: #f9fafc;
 }
 
