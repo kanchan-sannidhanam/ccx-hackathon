@@ -1,10 +1,10 @@
 ---
-title: "সেলসফোর্স ইকোসিস্টেম বোঝা"
+title: "Markdown Samples"
 date: 2020-06-08T08:06:25+06:00
-description: পণ্য, প্যাকেজ এবং অ্যাপ্লিকেশনগুলির বিক্রয়শক্তি ইকোসিস্টেমটি বুঝুন।
+description: Markdown rendering samples
 menu:
   sidebar:
-    name: সেলসফোর্স ইকোসিস্টেম বোঝা
+    name: Markdown Sample
     identifier: markdown
     weight: 30
 author:

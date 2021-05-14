@@ -12,7 +12,7 @@ section:
 degrees:
 - name: Marketing Connector
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2 weeks
   institution:
     name: Solution Kit A
     url: "#"
@@ -28,7 +28,7 @@ degrees:
     url: "#"
 - name: Service Connector
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 1 month
   institution:
     name: Solution Kit B
     url: "#"
@@ -61,7 +61,7 @@ degrees:
   - Pellentesque ut fringilla magna.
 - name: Heroku Connect
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 4-6 weeks
   institution:
     name: Solution Kit C
     url: "#"
@@ -76,7 +76,7 @@ degrees:
   - Pellentesque ut fringilla magna.
 - name: Mulesoft Connectors
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 1-2 weeks
   institution:
     name: Solution Kit D
   grade: #(optional)
