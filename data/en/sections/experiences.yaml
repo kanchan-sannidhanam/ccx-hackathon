@@ -33,7 +33,6 @@ experiences:
 - company:
     name: Do you need to exchange data between clouds?
     url: "https://www.example.com"
-    location: Intern Land
     overview: Need to automate or sync data in real-time?
   positions:
   - designation: Change Data Capture events.
@@ -49,3 +48,17 @@ experiences:
     responsibilities:
     - Accessible in your org. Nothing to install.
     - Query, update, and delete data across orgs.
+    
+- company:
+    name: Do you need to exchange data outside of Salesforce?
+    url: "https://www.example.com"
+    location: 
+    overview: Exchange data with systems outside Salesforce.
+  positions:
+  - designation: Mulesoft Connectors.
+
+    responsibilities:
+    - Provided and updated by Mulesoft.
+    - Quick and easy to implement
+    - Lets you exchange data with a wide variety of systems.
+

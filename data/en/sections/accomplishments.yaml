@@ -16,7 +16,7 @@ accomplishments:
   organization:
     name: Mulesoft
     url: https://docs.mulesoft.com/connectors/
-  courseOverview: Learning how to use Mulesoft connectors to replace difficult to maintain integrations.
+  courseOverview: Learn how to use Mulesoft connectors to replace difficult to maintain integrations.
   certificateURL: "https://example.com"
 
 - name: What is RAML
@@ -32,7 +32,7 @@ accomplishments:
   organization:
     name: Salesforce
     url: https://cloudinformationmodel.org/
-  courseOverview: You've heard about the Common Information Model for data exchange that Salesforce pioneered and that's now owned by a consortium of the largest companies in the world. What is CIM and how can it help you?
+  courseOverview: You've heard about the Common Information Model for data exchange that Salesforce pioneered and that's now managed by a consortium of the largest companies in the world. What is CIM and how can it help you?
   certificateURL: "https://example.com"
 
 
