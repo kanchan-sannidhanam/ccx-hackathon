@@ -2,6 +2,9 @@
 [home]
 other = "হোম"
 
+[maps]
+other = "মানচিত্র" 
+
 [posts]
 other = "পোষ্ট সমূহ"
 

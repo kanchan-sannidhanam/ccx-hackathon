@@ -2,6 +2,9 @@
 [home]
 other = "Home"
 
+[maps]
+other = "Maps" 
+
 [posts]
 other = "Posts"
 

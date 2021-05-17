@@ -77,6 +77,8 @@ params:
     # Enable & configure "Notes" features
     notes:
       enable: true
+    maps:
+      enable: true
 
 
   # specify whether you want to show Table of Contents in reading page

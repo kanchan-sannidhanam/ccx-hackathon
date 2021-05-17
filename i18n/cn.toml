@@ -2,6 +2,9 @@
 [home]
 other = "主页"
 
+[maps]
+other = "地图" 
+
 [posts]
 other = "博文"
 

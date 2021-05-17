@@ -2,6 +2,9 @@
 [home]
 other = "Главная"
 
+[maps]
+other = "Карты" 
+
 [posts]
 other = "Посты"
 

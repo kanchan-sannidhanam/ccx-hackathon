@@ -2,6 +2,9 @@
 [home]
 other = "Accueil"
 
+[maps]
+other = "Plans" 
+
 [posts]
 other = "Des postes"
 

@@ -2,6 +2,9 @@
 [home]
 other = "Startseite"
 
+[maps]
+other = "Karten" 
+
 [posts]
 other = "Beiträge"
 

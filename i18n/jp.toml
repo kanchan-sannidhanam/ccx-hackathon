@@ -2,6 +2,9 @@
 [home]
 other = "ホーム"
 
+[maps]
+other = "マップ" 
+
 [posts]
 other = "記事"
 

@@ -1,6 +1,7 @@
 {{/*  variables for enabling/disabling various features  */}}
 {{ $blogEnabled   := site.Params.features.blog.enable   | default false }}
 {{ $notesEnabled  := site.Params.features.notes.enable  | default false }}
+{{ $mapsEnabled  := site.Params.features.maps.enable  | default true }}
 
 {{/*  keep backward compatibility for blog post  */}}
 {{ if site.Params.enableBlogPost }}
@@ -69,14 +70,14 @@
           {{ range sort $sections "section.weight" }}
             {{ if and (.section.enable) (.section.showOnNavbar)}}
               {{ $sectionCount  = add $sectionCount 1}}
-              {{ if le $sectionCount 5 }}
+              {{ if le $sectionCount 3 }}
                 <li class="nav-item">
                   <a class="nav-link" href="#{{ partial "helpers/get-section-id.html" . }}">{{ .section.name }}</a>
                 </li>
               {{ end }}
             {{ end }}
           {{- end }}
-          {{ if gt $sectionCount 5 }}
+          {{ if gt $sectionCount 3 }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{i18n "more" }}</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -84,7 +85,7 @@
                 {{ range sort $sections "section.weight" }}
                   {{ if and (.section.enable) (.section.showOnNavbar) }}
                     {{ $sectionCount  = add $sectionCount 1}}
-                    {{ if gt $sectionCount 5 }}
+                    {{ if gt $sectionCount 3 }}
                       <a class="dropdown-item" href="#{{ partial "helpers/get-section-id.html" . }}">{{ .section.name }}</a>
                     {{ end }}
                   {{ end }}
@@ -96,6 +97,11 @@
         {{ $shouldAddSeparator:= partial "helpers/add-navbar-separator.html" . }}
         {{ if $shouldAddSeparator }}
           <div class="dropdown-divider" id="top-navbar-divider"></div>
+        {{ end }}
+        {{ if $mapsEnabled }}
+          <li class="nav-item">
+            <a class="nav-link" id="map-link" href="{{ "/maps" | relLangURL }}">{{ i18n "maps" }}</a>
+          </li>
         {{ end }}
         {{ if $blogEnabled }}
           <li class="nav-item">
