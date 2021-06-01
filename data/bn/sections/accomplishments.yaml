@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: টাস্ক গাইড
   id: accomplishments
   enable: true
   weight: 7
@@ -11,36 +11,28 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: আপনার একীকরণকে সরল করুন
+  timeline: "Two weeks"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
+    name: Mulesoft
+    url: https://docs.mulesoft.com/connectors/
+  courseOverview: ইন্টিগ্রেশন বজায় রাখা কঠিন প্রতিস্থাপনের জন্য কীভাবে মুলেসোফ্ট সংযোগকারীগুলি ব্যবহার করবেন তা শিখুন।
   certificateURL: "https://example.com"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: What is RAML
+  timeline: "One Day"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
+    name: Mulesoft
+    url: https://raml.org/
+  courseOverview: "র‌্যামএল কীভাবে আপনাকে এপিআই দ্রুত এবং উচ্চতর মানের বিকাশে সহায়তা করতে পারে সে সম্পর্কে জানুন। বিষয়গুলির মধ্যে রয়েছে: (i) র‌্যামএল কী? (ii) ওপেন এপিআই স্পেক থেকে এটি কীভাবে আলাদা। (iii) স্পেক মডুলারাইজেশন কীভাবে বিকাশের জীবনচক্রকে উন্নত করে।"
   certificateURL: "https://example.com"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Getting to know CIM
+  timeline: "1 hour"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
+    name: Salesforce
+    url: https://cloudinformationmodel.org/
+  courseOverview: ডেটা এক্সচেঞ্জের জন্য কমন ইনফরমেশন মডেল সম্পর্কে আপনি শুনেছেন যে সেলসফোর্স অগ্রণী ভূমিকা নিয়েছে এবং এটি এখন বিশ্বের বৃহত্তম সংস্থাগুলির একটি সংস্থার দ্বারা পরিচালিত। সিআইএম কী এবং এটি কীভাবে আপনাকে সহায়তা করতে পারে?
   certificateURL: "https://example.com"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
-  organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
- 
 

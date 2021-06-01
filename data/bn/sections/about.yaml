@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: সম্পর্কিত
   id: about
   enable: true
   weight: 1
@@ -18,7 +18,7 @@ designation: আপনি কি সেলসফোর্স দিয়ে ক
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: ' Learning maps can help you identify a solution and guide you along the journey to make it a reality.'
+summary: ' মানচিত্র শেখা আপনাকে একটি সমাধান সনাক্ত করতে এবং এটিকে বাস্তবে রূপ দেওয়ার জন্য যাত্রায় আপনাকে গাইড করতে সহায়তা করতে পারে।'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -51,22 +51,22 @@ summary: ' Learning maps can help you identify a solution and guide you along th
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Integration
+- name: মিশ্রণ
   percentage: 85
   color: blue
-- name: Security
+- name: সুরক্ষা
   percentage: 90
   color: yellow
-- name: Ecommerce
+- name: ইকমার্স
   percentage: 85
   color: pink
 - name: Apex
   percentage: 85
   color: green
-- name: Data
+- name: ডেটা
   percentage: 85
   color: sky
-- name: Development
+- name: বিকাশ
   percentage: 85
   color: orange
 # you can also provide color code instead of pre-defined color name

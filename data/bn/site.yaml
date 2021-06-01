@@ -2,10 +2,10 @@
 copyright: © 2021 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Home of Salesforce Learning Maps.
+description: সেলসফোর্স শেখার মানচিত্রের হোম Home
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Docs
+- name: ডকস
   url: https://toha-guides.netlify.app/posts/
