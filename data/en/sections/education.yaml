@@ -14,7 +14,7 @@ degrees:
   icon: fa-microscope
   timeframe: 2 weeks
   institution:
-    name: Solution Kit A
+    name: Integration Experience A
     url: "#"
   grade: #(optional)
     scale: Clouds
@@ -30,7 +30,7 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 1 month
   institution:
-    name: Solution Kit B
+    name: Integration Experience B
     url: "#"
   grade: #(optional)
     scale: Clouds
@@ -63,7 +63,7 @@ degrees:
   icon: fa-university
   timeframe: 4-6 weeks
   institution:
-    name: Solution Kit C
+    name: Integration Experience C
     url: "#"
   grade: #(optional)
     scale: Clouds
@@ -78,7 +78,7 @@ degrees:
   icon: fa-school
   timeframe: 1-2 weeks
   institution:
-    name: Solution Kit D
+    name: Integration Experience D
   grade: #(optional)
     scale: Clouds
     achieved: Mulesoft
